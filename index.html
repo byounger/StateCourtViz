@@ -16,7 +16,7 @@
     <script type="text/javascript">
         function initViz() {
             var containerDiv = document.getElementById("vizContainer"),
-                url = "https://public.tableau.com/views/StateCourtProject_BY/Sheet2",
+                url = "https://public.tableau.com/views/StateCourtProject_BY/Dashboard1?:embed=y&:display_count=yes&publish=yes",
                 options = {
                     hideTabs: true,
                     onFirstInteractive: function () {
@@ -31,11 +31,10 @@
   </head>
   <body onload="initViz();">
    <div class="container-fluid">
-	   <nav class="navbar navbar-light bg-light">
+	   <nav class="navbar sticky-top navbar-light bg-light">
 		<a class="navbar-brand mb-0 h1" href="#">
 			<img src="docs/NCSC_logo.png" width="60" height="60" class="d-inline-block align-middle" alt="">
 			National Center for State Courts Visualization
-			<p>Project by Brittney Younger</p>
 		</a>
 		<span class="navbar-text">
     			Additional details about the project
