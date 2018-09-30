@@ -1,10 +1,16 @@
-h7 {
-    color: #404040;
-}
+
+    
+
 .underline { 
     text-decoration: underline;
 }
 
 .scopefont { 
     font-size: 15px;
+    color: #404040;
+}
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 20px;
 }
