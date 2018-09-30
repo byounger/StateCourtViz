@@ -1,3 +1,10 @@
-h1 {
-    color: blue;
+h7 {
+    color: #404040;
+}
+.underline { 
+    text-decoration: underline;
+}
+
+.scopefont { 
+    font-size: 15px;
 }
